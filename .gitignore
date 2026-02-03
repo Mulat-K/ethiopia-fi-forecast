@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data outputs
+data/processed/*
+!data/processed/.gitkeep
+
+# Reports
+reports/figures/*.png
+
+# OS
+.DS_Store
+Thumbs.db
